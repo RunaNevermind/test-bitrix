@@ -1,0 +1,20 @@
+# Системные файлы и папки
+bitrix/.settings.php
+bitrix/.settings_extra.php
+bitrix/backup/
+bitrix/cache/
+bitrix/tmp/
+upload/tmp/
+upload/resize_cache/
+
+# Конфиги и логи
+*.log
+.env
+*.sql
+local/php_interface/dbconn.php
+
+# IDE и ОС файлы
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
